@@ -24,8 +24,8 @@
         <config-file target="*-Info.plist" parent="CFBundleName">
             <string>$APP_NAME</string>
         </config-file>
-        <edit-config file="*-Info.plist" mode="merge" target="CFBundleDisplayName">
+        <config-file target="*-Info.plist" parent="CFBundleDisplayName">
             <string>$APP_NAME</string>
-        </edit-config>
+        </config-file>
     </platform>
 </plugin>
